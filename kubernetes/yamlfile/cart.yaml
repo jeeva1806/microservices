@@ -27,6 +27,13 @@ spec:
         ports:
         - containerPort:  1004
           name: "cart"
+        resources:
+            requests:
+              memory: "200Mi"
+              cpu: "100m"
+            limits:
+              memory: "400Mi"
+              cpu: "200m"
 ---
 apiVersion: v1
 kind: Service
