@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: "cart"
-        image:  jeeva1806/ui:v2
+        image:  jeeva1806/myapp:cart.1.0.0
         imagePullPolicy: Always
         ports:
         - containerPort:  1004
