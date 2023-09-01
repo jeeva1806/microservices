@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name:  "zuul-api"
-        image:  jeeva1806/api:v1
+        image:  jeeva1806/myapp:api.1.0.0
         ports:
         - containerPort: 9999
           name:  "zuul-api"
