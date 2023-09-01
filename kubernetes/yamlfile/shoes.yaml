@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: "shoe"
-        image:  jeeva1806/spring:v2
+        image:  jeeva1806/myapp:shoes.1.0.0
         ports:
         - containerPort:  1002
           name: "shoe"
